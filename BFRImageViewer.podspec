@@ -14,9 +14,7 @@ Pod::Spec.new do |s|
   					           "Jordan Morgan" => "jordan@bufferapp.com"}
   	s.social_media_url = "https://twitter.com/bufferdevs"
     s.source       = { :git => "https://github.com/bufferapp/buffer-ios-image-viewer.git", :tag => '1.3.1'  }
-    s.source_files = 'Classes', 'BFRImageViewController/**/*.{h,m}'
-    s.resources    = ['BFRImageViewController/**/BFRImageViewerLocalizations.bundle']
-    s.exclude_files = 'BFRImageViewController/**/lowResImage.png'
+    s.source_files = 'Sources/BFRImageViewer/**/*.{h,m}'
     s.platform     = :ios, '13.0'
     s.requires_arc = true
     s.frameworks = "UIKit", "Photos"
