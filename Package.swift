@@ -11,7 +11,7 @@ let package = Package(
             targets: ["BFRImageViewer"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pinterest/PINRemoteImage.git", branch:"master")
+        .package(url: "git@github.com:pinterest/PINRemoteImage.git", branch:"3.0.4")
     ],
     targets: [
         .target(
