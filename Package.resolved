@@ -21,7 +21,7 @@
     {
       "identity" : "pinremoteimage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pinterest/PINRemoteImage.git",
+      "location" : "git@github.com:pinterest/PINRemoteImage.git",
       "state" : {
         "branch" : "3.0.4",
         "revision" : "37022d0fb9359ce33fa06028d03382c8b9957c62"
